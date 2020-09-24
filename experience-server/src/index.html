@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Interactive Project</title>
+    <link rel="stylesheet"  href="./assets/style.css">
+  </head>
+  <body>
+    <div id="app" class="app">
+      <div class="headTitle">
+        <h1>Music Filter Experience</h1>
+        <h2>Destroy pixel with music</h2>
+      </div>
+      <div class="cont1">
+        <div class="screen">
+          <h1>The Source Photo</h1>
+          <canvas id="subject"></canvas>
+        </div>
+        <div class="screen">
+          <h1>Result</h1>
+          <canvas id="newSubject"></canvas>
+        </div>
+      </div>
+      <div class="cont2">
+        <button id="play" class="buttonGeneric">Let's Play</button>
+        <button id="save" class="buttonGeneric">Save Result</button>
+      </div>
+      <br>
+      <p>Use this command input and tape {'a' 's' 'd' 'f' '  ' or 'h'} to test different movement of pixel </p>
+      <input type="text" name="text" class="command" id="sample" autofocus='true' placeholder="Tape {'a' 's' 'd' 'f' '  ' or 'h' to move pixel on image}">
+      <br>
+      <br>
+      <a class="link-to-server" href="http://localhost:3001">Go to the home page</a>
+    </div>
+    <script src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>

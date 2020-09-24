@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,1000,2000,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap')
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	height: 100vh;
+	background-color: #0b1b31;
+	color: white;
+	font: 14px "Josefin Sans", sans-serif;
+	font-weight: bold;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cont1{
+	font: 14px "Josefin Sans", sans-serif;
+	font-weight: 100;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.screen{
+	margin: 5px;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttonGeneric {
+	margin: 2px;
+	background-color: white;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	float: left;
+}
+
+.buttonGeneric:hover {
+	opacity: 70%;
+}
+
+.buttonGeneric:focus {
+	outline: none;
+}
+
+.headTitle {
+	margin-top: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.headTitle > h1 {
+	margin: 0;
+	font-size: 80px;
+	font-weight: 500;
+}
+
+.headTitle > h2 {
+	margin: 0;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.command {
+	background-color: #0b1b31;
+	color: #0b1b31;
+	width: 70%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+.command:focus {
+	outline: none;
+}
+
+.link-to-server {
+	color: rgb(240, 214, 98);
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+.link-to-server:hover {
+	color: rgb(240, 214, 98);
+	text-decoration: none;
+	margin-bottom: 10px;
+	opacity: 80%;
+}
